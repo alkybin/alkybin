@@ -53,6 +53,10 @@ body {
    BURGER + MENU MOBILE (MODERNE)
 ========================= */
 
+/* =========================
+   HEADER / MENU (MODERNE)
+========================= */
+
 .header {
   position: fixed;
   top: 0;
@@ -213,7 +217,13 @@ body {
   .burger {
     display: flex;
   }
+
+  /* CACHER le logo sur mobile */
+  .logo {
+    display: none;
+  }
 }
+
 
 
 /* =========================
