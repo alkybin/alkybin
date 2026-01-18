@@ -210,7 +210,11 @@ body {
    RESPONSIVE (MOBILE)
 ========================= */
 @media (max-width: 900px) {
-
+.logo {
+    position: absolute;   /* IMPORTANT */
+    top: 1.6rem;          /* remonte le logo */
+    left: 1.2rem;
+  }
   .nav ul {
     display: none;
   }
