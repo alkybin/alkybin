@@ -223,6 +223,12 @@ body {
     display: none;
   }
 }
+@media (max-width: 900px) {
+  .logo {
+    top: 1.1rem;     /* baisse un peu */
+    left: 1.2rem;    /* garde sur la gauche */
+  }
+}
 
 
 
