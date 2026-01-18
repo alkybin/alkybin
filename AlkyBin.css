@@ -220,7 +220,7 @@ body {
 
   .logo {
     position: absolute;
-    top: 1.25rem;   /* <- ajuste ici */
+    top: 1.1rem;   /* <- ajuste ici */
     left: 1.2rem;
   }
 }
@@ -704,4 +704,5 @@ body {
 @media (max-width: 768px) {
   .hero h1 { font-size: 2.8rem; }
   .nav ul { gap: 1.5rem; }
+
 }
